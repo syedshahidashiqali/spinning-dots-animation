@@ -1,0 +1,53 @@
+> We want to remove the margin on every fourth grid module
+
+HTML:
+
+<section class="grid">
+  <article class="module">One</article>
+  <article class="module">Two</article>
+  <article class="module">Three</article>
+  <article class="module">Four</article>
+  <article class="module">Five</article>
+</section>
+
+CSS:
+
+.module:nth-child(4n) {
+  margin-right: 0;
+}
+
+an+b
+
+a > integer value
+n > literal letter
++ , - > addition operator and can also be "-"
+b > integer, required only if the operator is included in the formula
+
+This formula is an equation.
+
+> "n" if included, represents a set of increasing positive integers
+  (just like iterating through an array)
+==============
+p {
+  transfrom: translate(x, y) // moves an elem in x or y direction (up or down)
+  transfrom: scale(x, y) // grow size of an element. This also applies to the font-size, padding, 
+                            height, and width of an element, too.
+}
+
+
+event mouseup and mousedown when mouse button pressed and when lift
+jab tak mouse ka button daba rhega >>> onmousedown
+jese hee finger uthaunga from button of mouse
+
+direction: alternate  // means The animation is played forwards first, then backwards
+
+easing: ease-in-out // That is, the change happens slowly both at the beginning and end, 
+                       and speeds up only in the middle somewhere. This gives soft edges 
+                       (metaphorically) to the change and generally feels good.
+
+ease-in  // slow at the beginning, fast/abrupt at the end
+ease-out // fast/abrupt at the beginning, slow at the end
+
+elem.animate(frames, timing)
+frames = []
+timing= {}
