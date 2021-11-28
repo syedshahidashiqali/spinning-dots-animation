@@ -4,6 +4,9 @@ This repository contains codelabs for the Web Animations API. If you're reading 
 
 This codelab has code to show you how to use the Web Animations API to animate a few visual elements (colored dots). You'll just learn about the `Element.animate` method. This is the core of the Web Animations API.
 
+#### Try out this in Browser using link mentioned below:
+[https://syedshahidashiqali.github.io/spinning-dots-animation/](https://syedshahidashiqali.github.io/spinning-dots-animation/)
+
 The final version will run on both desktop and mobile, in all modern browsers. Check out this preview-
 
 ![Preview](/preview.gif)
